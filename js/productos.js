@@ -94,7 +94,7 @@ const servicios = [
     peso:"50kg",
     precio:10000,
     img: "https://img.europapress.es/fotoweb/fotonoticia_20230307104714_420.jpg"
-  },
+  }
 ];
 
 /////***query Selector */
@@ -148,7 +148,7 @@ const mostrarServicios = (data) =>{
                                 <h5 class ="nombre">${servicio?.nombre}</h5><h1>
                                 <h5 class ="peso"> - hasta ${servicio?.peso}-</h5>                                
                                 <h5 class ="precio"> su valor es: $${servicio?.precio}</h5>                                
-                                <button style= "border: 1px solid #47cfac;padding: 10px 15px" id='${servicio.id}' class="btn-compra"><a href="/">Comprar</a></button>
+                                <button style= "cursor: pointer;border: 1px solid #47cfac;padding: 10px 15px" id='${servicio.id}' class="btn-compra"><a href="/">Comprar</a></button>
                                 </div>
                                 `;  
     contenedorServicios.appendChild(cardService);
@@ -179,5 +179,5 @@ function guardarLS(elemento){
       carrito.push(servEcontrado);
     }
   }
-  localStorage.clear();
+  //localStorage.clear();
   
