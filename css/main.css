@@ -53,6 +53,7 @@ header .header-icons-container .icons {
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+    
 }
 header .icons span {
     color: white;
@@ -120,15 +121,18 @@ nav .profile-link a {
 .search {
     padding: 10px 0px 10px 176px;
 }
-.search input{
-    height: 40px;
-    padding: 0 20px;
-    font-size: 20px;
-    color: #000;
-    outline: none;
-    border: 1px solid #48cfad;
-    border-radius: 30px;
 
+#searchid{
+    background-image: url('../assets/img/buscar.png'); 
+    background-size: 40px 42px;
+    background-repeat: no-repeat; 
+    width: 25%; 
+    font-size: 13px; 
+    padding: 0 40px;
+    border: 1px solid #48cfad;
+    margin-bottom: 12px; 
+    height: 43px;
+    border-radius: 30px;
 }
 .service{
     color: #48cfad;
@@ -255,3 +259,5 @@ footer p {
 .profile-main-proyects {
     padding: 0 50px 40px;
 }
+
+
