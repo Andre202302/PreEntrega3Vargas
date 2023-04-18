@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi Blog</title>
+    <title>Servicios</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font/flaticon.css">
 </head>
@@ -17,7 +17,7 @@
         </section>
         <nav>
             <section class="nav-logo-container">
-                <a href="/"><img src="assets/img/Logo-negro.png" alt="Logo de mi blog" > </a>
+                <a href="/"><img src="assets/img/Logo-negro.png" alt="Logo de mi tienda" > </a>
             </section>
             <section class="profile-link">
                 <a href="perfil.html">Inicio De Sesión</a>
@@ -40,50 +40,9 @@
         <section class="blogs-posts-container">
                 <p class="service">NUESTROS SERVICIOS</p>
             <div class="search">
-                <input type="search" id="searchid" placeholder="Search Service" required>
+                <input type="search" id="searchid" placeholder="Selecciona por Destino" required>
             </div>
-            <div class="grid-container">
-                <article class="post-container" id="premium">
-                    <img src="assets/img/Premium.png" alt="">
-                    <p>PREMIUM</p>
-                    <p>Servicio utilizado para hacer envíos que contienen mercancía sensible,  que 
-                        no pueden sufrir daños en el proceso de transporte. El valor del flete máximo es $5000</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <article class="post-container" id="light_x">
-                    <img src="assets/img/Ligth.png" alt="">
-                    <p>LIGHT_X</p>
-                    <p>Paquetes o Cajas con peso hasta 10kg el flete tiene un valor máximo de $1000.</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <article class="post-container" id="light_xx">
-                    <img src="assets/img/ligthXX.png" alt="">
-                    <p>LIGHT_XX</p>
-                    <p>Paquetes o Cajas con peso hasta 20kg el flete tiene un valor máximo de $2000.</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <article class="post-container" id="medium_x">
-                     <img src="assets/img/post-1.png" alt="">
-                    <p>MEDIUM_X</p>
-                    <p>Paquetes o Cajas con peso hasta 30kg el flete tiene un valor máximo de $3000.</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <article class="post-container" id="medium_xx">
-                    <img src="assets/img/post-3.png" alt="">
-                    <p>MEDIUM_XX</p>
-                    <p>Paquetes o Cajas con peso hasta 40kg el flete tiene un valor máximo de $4000.</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <article class="post-container" id="heavy">
-                    <img src="assets/img/medium.png" alt="">
-                    <p>HEAVY</p>
-                    <p>Paquetes o Cajas con peso hasta 50kg el flete tiene un valor máximo de $10000.</p>
-                    <a href="" class="blogs-button">Agregar</a>
-                </article>
-                <tbody id="table-body">
-                    <!-- Contenido dinámico -->
-                  </tbody>
-            </div>
+            <div id="contenedor-servicios"></div>        
         </section>
     </main>
     <footer>
