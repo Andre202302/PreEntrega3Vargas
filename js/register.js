@@ -39,7 +39,7 @@ formRegister.addEventListener('submit', (e)=>{
   agregarUser(newUser)
   guardarLS(usuarios)
   const titulo=document.getElementById('titulo');
-  titulo.innerText="USUARIO REGISTRADO";
+  titulo.innerText="USUARIO REGISTRADO-Ingresa por el link de Iniciar Sesión";
   formRegister.reset();  
 })
 localStorage.clear();
