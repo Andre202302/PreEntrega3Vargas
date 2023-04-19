@@ -134,6 +134,25 @@ nav .profile-link a {
     height: 43px;
     border-radius: 30px;
 }
+#searc-button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color:aqua;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+#buttons button{
+    border: 2px solid #48cfad;
+    padding: 1em 2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color:darkblue;
+    cursor: pointer;
+    margin-bottom: 6%;
+    margin-left: 13em;
+
+}
 .service{
     color: #48cfad;
     font-weight: 800;
@@ -258,6 +277,11 @@ footer p {
 }
 .profile-main-proyects {
     padding: 0 50px 40px;
+}
+#contenedor-servicios{
+    display: grid;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
 }
 
 
