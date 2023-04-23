@@ -1,3 +1,10 @@
+class registros{
+  constructor (username,CorreoElectronico,password){
+    this.username = username;
+    this.CorreoElectronico = CorreoElectronico;
+    this.password = password;
+  }
+  }
 /********************querySelectorRegister ****************/
 const formIngresar = document.querySelector("#formInput"),
 userInput = document.querySelector("#userInput"),
@@ -7,7 +14,8 @@ mensaje = document.querySelector("#mensaje");
 
 ///*****inicializar LS con un usuario**********************************************************************************/
 const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];//si hay elementos en el LS a esta variable le asigno lo que tengo en LS, si no hay nada va a devolver null
-usuarios.push ("Andre","l_andre@gmail.com",123);
+usuarios.push (new registros("Andre","l_andre@gmail.com",123));
+//usuarios.push ("Andre","l_andre@gmail.com",123);
 ////***Gurardar en el Localstore ****////
 function guardarLS(elemento){
   return localStorage.setItem('usuarios', JSON.stringify(elemento))
